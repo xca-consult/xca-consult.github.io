@@ -1,4 +1,10 @@
 $(document).ready( function() {
+    
+    	// Logo
+	var $logo 	= $('#logo');
+    if (location.href.indexOf("#") != -1) {
+        	$logo.show();
+    }
 
 function animMeter(){
     $(".meter > span").each(function() {
