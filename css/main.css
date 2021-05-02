@@ -414,11 +414,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   margin-bottom: 0px;
 }
 
-.sny-icon-content a{
-  margin-bottom: 0px;
-  color: #000000;
-}
-
 /* Buttons */
 .btn{
   display:inline-block;
