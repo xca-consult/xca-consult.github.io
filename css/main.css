@@ -340,17 +340,22 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 /* WorkExperience */
 .work li{
-  border-bottom: 1px solid #f1f1f1;
-  margin-bottom: 2em;
+
 }
 .work li span{
   float: right;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 2em;
 }
 .work li h5{
   float: left;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 2em;
 }
 .work li p{
   clear: both;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 2em;
 }
 
 /* Portfolio */
