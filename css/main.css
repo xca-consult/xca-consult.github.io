@@ -164,7 +164,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 /* Backgrounds */
 
 .bg-1{
-  background-image: url('../images/wallpaper1.jpg');
+ background: linear-gradient(#444444db, rgb(0 0 0 / 24%)), url(../images/wallpaper1.jpg);
 }
 
 /* Header */
