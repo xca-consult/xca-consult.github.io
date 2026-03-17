@@ -439,6 +439,10 @@ ul { margin: 0; padding: 0; }
   gap: 1.25rem;
 }
 
+.competencies-grid .section-card {
+  margin-bottom: 0;
+}
+
 @media (min-width: 640px) {
   .competencies-grid { grid-template-columns: repeat(2, 1fr); }
 }
