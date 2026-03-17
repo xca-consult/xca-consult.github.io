@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.xca-consult.dk/sitemap.xml
+LLMs: https://www.xca-consult.dk/llms.txt
