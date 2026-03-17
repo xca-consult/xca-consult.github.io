@@ -343,6 +343,20 @@ ul { margin: 0; padding: 0; }
   line-height: 1.65;
 }
 
+/* Skill group title */
+.skill-group-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin: 1rem 0 0.5rem;
+}
+
+.skill-group-title:first-of-type {
+  margin-top: 0;
+}
+
 /* Skill tags */
 .skill-tags {
   display: flex;
