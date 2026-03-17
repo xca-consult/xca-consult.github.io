@@ -22,7 +22,13 @@ Single-page application in a single `index.html` file. All content is divided in
 
 ## Local Development
 
-Open `index.html` directly in a browser. No server or build step needed. To simulate GitHub Pages behavior with hash routing, serve with any static file server:
+To preview the site, open `index.html` directly in Chrome:
+
+```sh
+open -a "Google Chrome" index.html
+```
+
+No server or build step needed. To simulate GitHub Pages behavior with hash routing, serve with any static file server:
 
 ```sh
 python3 -m http.server 8000
