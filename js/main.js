@@ -13,7 +13,6 @@
     buttons.forEach(function (b) {
       b.classList.toggle('active', b.dataset.tab === id);
     });
-    if (id === 'resume') animateSkillBars();
   }
 
   function activeTabFromHash() {
@@ -46,16 +45,6 @@
   window.addEventListener('popstate', function () {
     showTab(activeTabFromHash());
   });
-
-  // Skill bar animation
-  var barsAnimated = false;
-  function animateSkillBars() {
-    if (barsAnimated) return;
-    barsAnimated = true;
-    document.querySelectorAll('.skill-bar-fill').forEach(function (fill) {
-      fill.style.width = fill.dataset.width + '%';
-    });
-  }
 
   // Initial render
   showTab(activeTabFromHash());
