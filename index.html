@@ -1,412 +1,280 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en">
 <head>
-  <meta name="google-site-verification" content="O-7YolYXMe2SGeP8JEYjlO9hKV-PofVGN2CLgbW_yD0" />
-  <title>XCA Consult</title>
-  
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  
-  <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="IT,development,architecture,domain driven design,micro services,freelance,software design,presentation,technical coaching,hexagonal architecture,cqrs" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="O-7YolYXMe2SGeP8JEYjlO9hKV-PofVGN2CLgbW_yD0">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="IT,development,architecture,domain driven design,micro services,freelance,software design,presentation,technical coaching,hexagonal architecture,cqrs">
   <meta name="description" content="XCA Consult is a one man consultancy agency that delivers high quality IT services within architecture and development">
-  <meta name="viewport" content="width=device-width">
-  
-  <link rel="canonical" href="http://www.xca-consult.dk/" />
-  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>XCA Consult</title>
+  <link rel="canonical" href="http://www.xca-consult.dk/">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/main.css">
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-  <script src="js/vendor/jquery.hashchange.min.js"></script>
-  <script src="js/vendor/jquery.easytabs.min.js"></script>
-
-<script src="js/main.js"></script>
-  
-  <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
-      <![endif]-->
 </head>
-  <body class="bg-fixed bg-1">
-<!--[if lt IE 7]>
-    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
-   <div class="main-container">
-    <div class="main wrapper clearfix">
-      <!-- Header Start -->
-        <header id="header">
-            <div id="logo">
-               <img src="images\xca-Consult--2 moerk.png" alt="company-logo">
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <img src="images/xca-logo-s-white.png" alt="XCA Consult">
+    </div>
+  </header>
+
+  <nav class="tab-nav" role="navigation" aria-label="Main navigation">
+    <button class="tab-btn active" data-tab="about">
+      <i class="fa-solid fa-user"></i><span>About me</span>
+    </button>
+    <button class="tab-btn" data-tab="resume">
+      <i class="fa-solid fa-file-lines"></i><span>Resume</span>
+    </button>
+    <button class="tab-btn" data-tab="services">
+      <i class="fa-solid fa-briefcase"></i><span>Services</span>
+    </button>
+    <button class="tab-btn" data-tab="contact">
+      <i class="fa-solid fa-envelope"></i><span>Contact me</span>
+    </button>
+  </nav>
+
+  <main class="site-main">
+
+    <!-- About -->
+    <div id="about" class="tab-panel active">
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="profile-header">
+            <img class="profile-photo" src="images/eoolsen.jpg" alt="Erik Olsen">
+            <div>
+              <h1 class="profile-name">Erik Olsen</h1>
+              <p class="profile-company">XCA Consult ApS</p>
             </div>
-        </header>
-        <!-- Header End -->
-        <!-- Main Tab Container -->
-        <div id="tab-container" class="tab-container">
-          <!-- Tab List -->
-            <ul class='etabs'>
-                <li class='tab' id="tab-about">
-                  <a href="#about"><i class="icon-user"></i><span>About me</span></a>
-                </li>
-                <li class='tab'>
-                  <a href="#resume"><i class="icon-file-text"></i><span>Resume</span></a>
-                </li>
-                <li class='tab'>
-                  <a href="#services"><i class="icon-dollar"></i><span>Services</span></a>
-                </li>
-                <li class='tab'>
-                  <a href="#contact"><i class="icon-envelope"></i><span>Contact me</span></a>
-                </li>
-            </ul>
-          <!-- End Tab List -->
-            <div id="tab-data-wrap">
-              <!-- About Tab Data -->
-                <div id="about">
-                    <section class="clearfix">
-                        <div class="g2">
-                            <div class="info">
-                                <h3>
-                                    XCA Consult ApS
-                                </h3>
-                                <div class="photo">
-                                    <img src="images/eoolsen.jpg" alt="Erik Olsen">
-                                </div>
-                                <p>
-                                  XCA Consult ApS is a one-man consulting agency that helps clients during all phases of development.
-                                  </br>
-                                  I have numerous years of technical experience from industries like Finance, Insurance, Classifieds and Retail.
-                                  </br>
-                                  Many, if not all, companies are modernizing their IT, and evolving towards a more service and event driven architecture. 
-                                  This transition is my specialty and I contribute with deep knowledge in every step of the process from vision and strategy 
-                                  to execution and maintenance.
-                                  </br>
-                                  I am independent, I always work with quality in mind and strive to solve real problems for customers.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="main-links sidebar">
-                                <ul>
-                                    <li>
-                                       <a href="#resume">Resume</a>
-                                    </li>
-                                    <li>
-                                        <a href="#services">Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="#contact">Contact me</a>
-                                    </li>
-                                    <li>
-                                        <a href="cv-eng.pdf">My CV</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="break"></div>
-                        <div class="contact-info">
-                          <div class="g1">
-                            <div class="item-box clearfix">
-                              <i class="icon-"></i>
-                              <div class="item-data">
-                                <h3><a href="mailto:eo@xca-consult.dk">eo@xca-consult.dk</a></h3>
-                                <p>E-mail</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="g1">
-                            <div class="item-box clearfix">
-                              <i class="icon-"></i>
-                              <div class="item-data">
-                                <h3><a href="https://twitter.com/eoolsen">Erik Olsen</a></h3>
-                                <p>Twitter</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="g1">
-                            <div class="item-box clearfix">
-                              <i class="icon-"></i>
-                              <div class="item-data">
-                                <h3><a href="https://www.linkedin.com/in/erik-olsen-4167a41">Erik Olsen</a></h3>
-                                <p>LinkedIn</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                    </section><!-- content -->
-                </div>
-              <!-- End About Tab Data -->
-              <!-- Resume Tab Data -->
-                <div id="resume">
-                    <section class="clearfix">
-                        <div class="g2">
-                            <h3>
-                                Professional Experience
-                            </h3>
-                            <ul class="no-list work">
-                              <li>
-                                    <h5>Tech Consultant Lunar (Architect)</h5>
-                                <span class="label label-info">2022</span>
-                                    <p>
-                                      I was an architect in the Lending and Credit colony in Lunar, investigating new initiatives and sparring with developers on all things development and cloud
-                                      related, that included automated testing, service design and domain design.                                    
-                                </p>
-                              </li>
-                              <li>
-                                    <h5>Developer and Architect OK a.m.b.a</h5>
-                                <span class="label label-info">2021-2022</span>
-                                    <p>
-                                        Designing and creating APIs on a Kubernetes platform, using Domain Driven Design and token based security based on Azure AD.  
-                                    </p>
-                              </li>
-                              <li>
-                                    <h5>Chief Software Engineer Danske Bank</h5>
-                                <span class="label label-info">2020-2021</span>
-                                    <p>
-                                        Designing and creating APIs on an Openshift Cloud, using Domain Driven Design and token based security.  
-                                    </p>
-                              </li>
-                              <li>
-                                    <h5>
-                                       Architect and tech lead BankData
-                                    </h5><span class="label label-info">2019-2020</span>
-                                    <p>
-                                     Onboarding and teaching teams who were going to develop APIs on the "new platform" (Openshift). The position included a lot of 
-                                      practical architecture and teaching the principles of cloud development. This position was as an external consultant.
-                                    </p>
-                                </li>
-                              <li>
-                                    <h5>
-                                       Senior developer MobilePay
-                                    </h5> <span class="label label-info">2015-2018</span>
-                                    <p>
-                                     My work was helping create the new application achitecture and implement this in the security team.
-                                    </p>
-                                </li>
-                              <li>
-                                    <h5>
-                                       Senior developer eBay
-                                    </h5> <span class="label label-info">2012-2015</span>
-                                    <p>
-                                     My work was feature development and maintenance of the bilbasen.dk site.
-                                    </p>
-                                </li>
-
-                          </ul>
-                            <h3>
-                                Education
-                            </h3>
-                            <ul class="no-list work">
-                                <li>
-                                    <h5>
-                                        M.Sc. Mathematics
-                                    </h5><span class="label label-success">1998-2004</span>
-                                    <p>
-                                    A master degree in Matchematics specializing in Geometry and Topology.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="g1">
-                            <div class="sidebar">
-                                <h3>
-                                    Competences
-                                </h3>
-                                <h5>
-                                  Development
-                                </h5>
-                                <div class="meter emerald ">
-                                    <span style="width: 100%"><span>C# and Dotnet Core</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 100%"><span>ASP.NET Core</span></span>
-                                </div>
-                                <div class="meter emerald ">
-                                    <span style="width: 100%"><span>ELK stack</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 100%"><span>RabbitMQ</span></span>
-                                </div>
-                                <div class="meter emerald">
-                                    <span style="width: 95%"><span>Docker</span></span>
-                                </div>
-                                <div class="meter carrot ">
-                                    <span style="width: 95%"><span>SQL</span></span>
-                                </div>
-                                <div class="meter emerald">
-                                    <span style="width: 90%"><span>Cassandra</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 80%"><span>Java</span></span>
-                                </div>
-                                <div class="meter emerald ">
-                                    <span style="width: 80%"><span>Spring Boot</span></span>
-                                </div>
-
-                              <div class="break"></div>
-                               
-                                <h5>
-                                  Architecture
-                                </h5>
-                                
-                                <div class="meter emerald">
-                                    <span style="width: 100%"><span>Domain driven design</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 100%"><span>Event driven architecture</span></span>
-                                </div>
-                                <div class="meter emerald">
-                                    <span style="width: 100%"><span>Micro services</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 100%"><span>Observability</span></span>
-                                </div>
-                                <div class="meter emerald">
-                                    <span style="width: 100%"><span>CQRS</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 100%"><span>API Design</span></span>
-                                </div>
-                                <div class="meter emerald">
-                                    <span style="width: 95%"><span>OpenId Connect and OAuth 2</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 90%"><span>TOGAF</span></span>
-                                </div>
-                                <div class="meter emerald">
-                                    <span style="width: 90%"><span>API Gateways</span></span>
-                                </div>
-                                <div class="break"></div>
-                                <h5>
-                                    Languages
-                                </h5>
-
-                                <div class="meter emerald">
-                                    <span style="width: 100%"><span>Danish</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 100%"><span>English</span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-              <!-- End Resume Tab Data -->
-              <!-- Portfolio Tab Data -->
-                  <div id="services">
-                      <section class="clearfix">
-                          <h3>
-                                My Services
-                            </h3>
-                            <ul class="no-list work">
-                              <li>
-                                    <h5>Software development</h5>
-                                    <p>
-                                        I specialize in designing and creating software and is a driver of all aspects of software development from 
-                                        refining and designing and development and maintanance. I have a keen eye on balancing time, scope and technical ambition. 
-                                        </br>
-                                        Architecture and development is best done in close collaboration and driven by business needs, this ensures feasibility of proposed architecture 
-                                        and commitment from the architect to solving real challenges for the development teams.
-                                    </br>
-                                        With me on the team you will get a senior developer and architect that is a team player and an excellent communicator. I emphasise on
-                                        communication because I find good communcation crucial to the collaboration within a team and with stakeholders in the rest of the 
-                                        organization.
-                                    </p>
-                                </li>
-                              
-                              <li>
-                                    <h5>Architecture Review</h5>
-                                    <p>
-                                        Independant and open review of architecture and over all state of an existing system. 
-                                        We will use our experience to pin point strengths and weaknesses in your system, and deliver clear and tangible actions to move your system/product forward.
-                                  
-                                        We will review the system from a number of viewpoints, namely <b>System Architecture</b>, <b>Code Review (quality and maintainability)
-                                      </b> and <b>Security</b> and asses the state of each of these relative to the problem it needs to solve. 
-                                    </br>
-                                    The findings of the architecture review is presented to the client on a meeting and handed over in written form after the presentation.
-                                    </p>
-                              </li>
-                              <li>
-                                    <h5>Second opinion</h5>
-                                    <p>
-                                    If you need a second opinion on an important project or you are looking into changing a system in your IT landscape, 
-                                      then I can assist you with insights from prior experiences to help you stay on track.  
-                                    </p>
-                                </li>          
-                    
-                              <li>
-                                    <h5>Domain driven design Workshop</h5>
-                                    <p>
-                                        A two day workshop where you clarify your over all project needs and design to hit the ground running when morphing into feature development.  
-                                    </p>
-                                </li>
-                            </ul>
-                      </section>
-                  </div>
-              <!-- End Portfolio Data -->
-              <!-- Contact Tab Data -->
-                <div id="contact">
-                    <section class="clearfix">
-                       <div class="g1">
-                         <div class="sny-icon-box">
-                           <div class="sny-icon">
-                              <i class="icon-phone"></i>
-                            </div>
-                            <div class="sny-icon-content">
-                              <h4>Telephone</h4>
-                              <p>+45 22 37 19 19<br/>
-                            </div>
-                         </div>
-                       </div>
-                       <div class="g1">
-                         <div class="sny-icon-box">
-                           <div class="sny-icon">
-                              <i class="icon-user"></i>
-                            </div>
-                            <div class="sny-icon-content">
-                              <h4>E-mail</h4>
-                              <p>eo@xca-consult.dk</p>
-                            </div>
-                         </div>
-                       </div>
-                      
-                      <div class="g1">
-                         <div class="sny-icon-box">
-                           <div class="sny-icon">
-                              <i class="icon-coffee"></i>
-                            </div>
-                            <div class="sny-icon-content">
-                              <h4>Bye me a coffee</h4>
-                              <a href="https://paypal.me/eolsencoffee?locale.x=en_US">Click to bye me a coffee</a>
-                            </div>
-                         </div>
-                       </div>
-                      
-                       <div class="break"></div>
-
-                    </section>
-                </div>
-              <!-- End Contact Data -->
-            </div>
+          </div>
+          <p>
+            XCA Consult ApS is a one-man consulting agency that helps clients during all phases of development.
+            I have numerous years of technical experience from industries like Finance, Insurance, Classifieds and Retail.
+          </p>
+          <p>
+            Many, if not all, companies are modernizing their IT, and evolving towards a more service and event driven architecture.
+            This transition is my specialty and I contribute with deep knowledge in every step of the process from vision and strategy
+            to execution and maintenance.
+          </p>
+          <p>
+            I am independent, I always work with quality in mind and strive to solve real problems for customers.
+          </p>
+          <div class="contact-chips">
+            <a href="mailto:eo@xca-consult.dk" class="contact-chip">
+              <i class="fa-solid fa-envelope"></i> eo@xca-consult.dk
+            </a>
+            <a href="https://www.linkedin.com/in/erik-olsen-4167a41" class="contact-chip" target="_blank" rel="noopener">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://twitter.com/eoolsen" class="contact-chip" target="_blank" rel="noopener">
+              <i class="fa-brands fa-x-twitter"></i> X / Twitter
+            </a>
+          </div>
         </div>
-        <!-- End Tab Container -->
-        <footer>
-            <p>
-              XCA Consult ApS | CVR Nr 43166670 | © 2022 XCA Consult ApS
-            </p>
-        </footer>
-    </div><!-- #main -->
-</div><!-- #main-container -->
+        <div class="sidebar-card">
+          <p class="sidebar-title">Quick links</p>
+          <ul class="sidebar-nav">
+            <li><a href="#resume" class="tab-link" data-tab="resume"><i class="fa-solid fa-file-lines"></i> Resume</a></li>
+            <li><a href="#services" class="tab-link" data-tab="services"><i class="fa-solid fa-briefcase"></i> Services</a></li>
+            <li><a href="#contact" class="tab-link" data-tab="contact"><i class="fa-solid fa-envelope"></i> Contact me</a></li>
+            <li><a href="cv-eng.pdf" target="_blank"><i class="fa-solid fa-download"></i> Download CV</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
+    <!-- Resume -->
+    <div id="resume" class="tab-panel">
+      <div class="resume-grid">
+        <div>
+          <div class="section-card">
+            <h2 class="section-title">Professional Experience</h2>
+            <ul class="timeline">
+              <li class="timeline-item">
+                <div class="timeline-header">
+                  <span class="timeline-title">Tech Consultant — Lunar (Architect)</span>
+                  <span class="timeline-date">2022</span>
+                </div>
+                <p class="timeline-body">
+                  Architect in the Lending and Credit colony at Lunar, investigating new initiatives and sparring with
+                  developers on development, cloud, automated testing, service design and domain design.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <div class="timeline-header">
+                  <span class="timeline-title">Developer and Architect — OK a.m.b.a</span>
+                  <span class="timeline-date">2021–2022</span>
+                </div>
+                <p class="timeline-body">
+                  Designing and creating APIs on a Kubernetes platform using Domain Driven Design and token based security based on Azure AD.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <div class="timeline-header">
+                  <span class="timeline-title">Chief Software Engineer — Danske Bank</span>
+                  <span class="timeline-date">2020–2021</span>
+                </div>
+                <p class="timeline-body">
+                  Designing and creating APIs on an Openshift Cloud using Domain Driven Design and token based security.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <div class="timeline-header">
+                  <span class="timeline-title">Architect and Tech Lead — BankData</span>
+                  <span class="timeline-date">2019–2020</span>
+                </div>
+                <p class="timeline-body">
+                  Onboarding and teaching teams developing APIs on the new Openshift platform. Covered practical architecture
+                  and the principles of cloud development as an external consultant.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <div class="timeline-header">
+                  <span class="timeline-title">Senior Developer — MobilePay</span>
+                  <span class="timeline-date">2015–2018</span>
+                </div>
+                <p class="timeline-body">
+                  Helped create the new application architecture and implemented it in the security team.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <div class="timeline-header">
+                  <span class="timeline-title">Senior Developer — eBay</span>
+                  <span class="timeline-date">2012–2015</span>
+                </div>
+                <p class="timeline-body">
+                  Feature development and maintenance of the bilbasen.dk site.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="section-card">
+            <h2 class="section-title">Education</h2>
+            <ul class="timeline">
+              <li class="timeline-item">
+                <div class="timeline-header">
+                  <span class="timeline-title">M.Sc. Mathematics — University</span>
+                  <span class="timeline-date edu">1998–2004</span>
+                </div>
+                <p class="timeline-body">
+                  Master's degree in Mathematics specializing in Geometry and Topology.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-card">
+          <h2 class="section-title">Competences</h2>
+          <p class="skill-section-title">Development</p>
+          <div class="skill-bar"><div class="skill-bar-label">C# and .NET Core</div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">ASP.NET Core</div><div class="skill-bar-track"><div class="skill-bar-fill alt" data-width="100"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">ELK Stack</div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">RabbitMQ</div><div class="skill-bar-track"><div class="skill-bar-fill alt" data-width="100"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">Docker</div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="95"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">SQL</div><div class="skill-bar-track"><div class="skill-bar-fill alt" data-width="95"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">Cassandra</div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">Java</div><div class="skill-bar-track"><div class="skill-bar-fill alt" data-width="80"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">Spring Boot</div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
 
+          <p class="skill-section-title">Architecture</p>
+          <div class="skill-bar"><div class="skill-bar-label">Domain Driven Design</div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">Event Driven Architecture</div><div class="skill-bar-track"><div class="skill-bar-fill alt" data-width="100"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">Micro Services</div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">Observability</div><div class="skill-bar-track"><div class="skill-bar-fill alt" data-width="100"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">CQRS</div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">API Design</div><div class="skill-bar-track"><div class="skill-bar-fill alt" data-width="100"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">OpenID Connect / OAuth 2</div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="95"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">TOGAF</div><div class="skill-bar-track"><div class="skill-bar-fill alt" data-width="90"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">API Gateways</div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div></div>
 
+          <p class="skill-section-title">Languages</p>
+          <div class="skill-bar"><div class="skill-bar-label">Danish</div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div></div>
+          <div class="skill-bar"><div class="skill-bar-label">English</div><div class="skill-bar-track"><div class="skill-bar-fill alt" data-width="100"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services" class="tab-panel">
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Software Development</h3>
+          <p>
+            I specialize in designing and creating software and am a driver of all aspects of software development —
+            from refining and designing to development and maintenance. I have a keen eye for balancing time, scope and
+            technical ambition.
+          </p>
+          <p>
+            Architecture and development is best done in close collaboration and driven by business needs. With me on
+            the team you get a senior developer and architect who is a team player and an excellent communicator.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+          <h3>Architecture Review</h3>
+          <p>
+            Independent and open review of architecture and the overall state of an existing system. I will use my
+            experience to pinpoint strengths and weaknesses and deliver clear, tangible actions to move your system forward.
+          </p>
+          <p>
+            The review covers <strong>System Architecture</strong>, <strong>Code Review</strong> (quality and
+            maintainability), and <strong>Security</strong>. Findings are presented in a meeting and delivered in writing.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-comments"></i></div>
+          <h3>Second Opinion</h3>
+          <p>
+            If you need a second opinion on an important project or are considering changes to your IT landscape,
+            I can assist you with insights from prior experiences to help you stay on track.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-diagram-project"></i></div>
+          <h3>Domain Driven Design Workshop</h3>
+          <p>
+            A two-day workshop where you clarify your overall project needs and design to hit the ground running
+            when moving into feature development.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="tab-panel">
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+          <h4>Telephone</h4>
+          <p>+45 22 37 19 19</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+          <h4>E-mail</h4>
+          <a href="mailto:eo@xca-consult.dk">eo@xca-consult.dk</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fa-solid fa-mug-hot"></i></div>
+          <h4>Buy me a coffee</h4>
+          <a href="https://paypal.me/eolsencoffee?locale.x=en_US" target="_blank" rel="noopener">Click to buy me a coffee</a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>XCA Consult ApS &nbsp;|&nbsp; CVR Nr 43166670 &nbsp;|&nbsp; &copy; 2022 XCA Consult ApS</p>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
