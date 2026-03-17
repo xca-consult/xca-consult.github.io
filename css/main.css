@@ -465,7 +465,7 @@ ul { margin: 0; padding: 0; }
 }
 
 @media (min-width: 1024px) {
-  .competencies-grid { grid-template-columns: repeat(3, 1fr); }
+  .competencies-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 /* ==================== SERVICES ==================== */
