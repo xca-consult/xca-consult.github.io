@@ -1,0 +1,43 @@
+# XCA Consult ApS
+
+> XCA Consult ApS is a one-man IT consultancy based in Aarhus, Denmark, founded and run by Erik Olsen. The company delivers high-quality software architecture and development services to clients across Denmark.
+
+## About Erik Olsen
+
+Erik Olsen is a freelance software architect and developer with 20+ years of experience from industries including Finance, Insurance, Classifieds, and Retail. He holds an M.Sc. in Mathematics (Geometry and Topology) from Aarhus University.
+
+He specialises in helping companies modernise their IT — transitioning towards service-oriented and event-driven architectures — contributing across the full journey from vision and strategy to execution and maintenance.
+
+## Services
+
+- **Software Development**: Full-cycle development and architecture, from refining and designing to delivery and maintenance. Senior developer and architect profile, collaborative and business-driven.
+- **Architecture Review**: Independent review of system architecture, code quality, and security. Findings delivered in a meeting and in writing with clear, actionable recommendations.
+- **Second Opinion**: Advisory input on important IT projects or landscape changes, drawing on broad cross-industry experience.
+- **Domain Driven Design Workshop**: Two-day workshop to clarify project needs and establish a solid design foundation before feature development begins.
+
+## Professional Experience
+
+- External Consultant (Developer and Architect) — BankData (2026–present)
+- Software Developer, Payment Engine — Vipps MobilePay (2023–2026)
+- Tech Consultant (Architect) — Lunar (2022)
+- Developer and Architect — OK a.m.b.a (2021–2022)
+- Chief Software Engineer — Danske Bank (2020–2021)
+- External Consultant (Architect and Tech Lead) — BankData (2019–2020)
+- Senior Developer — MobilePay (2015–2018)
+- Senior Developer — eBay / bilbasen.dk (2012–2015)
+
+## Technical Competencies
+
+**Languages**: C#, Java, Go, SQL
+**Frameworks**: .NET Core, ASP.NET Core, Quarkus
+**Technology**: Azure, AWS, OpenShift, Kafka, RabbitMQ, Docker, Kubernetes, Cassandra, ELK Stack
+**Architecture**: Domain Driven Design, Event Driven Architecture, Microservices, CQRS, API Design, OpenID Connect, OAuth 2, TOGAF, API Gateways, Observability
+**Human languages**: Danish, English
+
+## Contact
+
+- Website: https://www.xca-consult.dk/
+- Email: eo@xca-consult.dk
+- Phone: +45 22 37 19 19
+- LinkedIn: https://www.linkedin.com/in/erik-olsen-4167a41
+- CVR (company registration): 43166670
