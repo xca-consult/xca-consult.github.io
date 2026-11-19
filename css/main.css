@@ -71,6 +71,8 @@ img { max-width: 100%; display: block; }
   flex-shrink: 0;
 }
 
+.icon-sprite { display: none; }
+
 ul { margin: 0; padding: 0; }
 
 /* --- SITE HEADER --- */
