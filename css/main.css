@@ -62,6 +62,15 @@ a:hover { color: var(--accent-hover); }
 
 img { max-width: 100%; display: block; }
 
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  vertical-align: -0.125em;
+  flex-shrink: 0;
+}
+
 ul { margin: 0; padding: 0; }
 
 /* --- SITE HEADER --- */
@@ -160,7 +169,7 @@ ul { margin: 0; padding: 0; }
   white-space: nowrap;
 }
 
-.tab-btn i {
+.tab-btn .icon {
   font-size: 0.8125rem;
   opacity: 0.6;
   transition: opacity 0.15s;
@@ -172,7 +181,7 @@ ul { margin: 0; padding: 0; }
   color: var(--accent);
 }
 
-.tab-btn:hover i {
+.tab-btn:hover .icon {
   opacity: 1;
 }
 
@@ -182,7 +191,7 @@ ul { margin: 0; padding: 0; }
   background: rgba(59, 130, 246, 0.05);
 }
 
-.tab-btn.active i {
+.tab-btn.active .icon {
   opacity: 1;
 }
 
@@ -257,6 +266,8 @@ ul { margin: 0; padding: 0; }
   margin-bottom: 1.5rem;
 }
 
+.profile-header picture { flex-shrink: 0; }
+
 .profile-photo {
   width: 90px;
   height: 90px;
@@ -268,6 +279,28 @@ ul { margin: 0; padding: 0; }
 
 @media (min-width: 480px) {
   .profile-photo { width: 110px; height: 110px; }
+}
+
+.availability {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: -0.25rem 0 1.5rem;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text);
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  border-radius: var(--radius);
+}
+
+.availability-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: var(--accent-alt);
+  flex-shrink: 0;
 }
 
 .profile-name {
@@ -341,10 +374,9 @@ ul { margin: 0; padding: 0; }
   transition: color 0.15s;
 }
 
-.sidebar-nav a i {
+.sidebar-nav a .icon {
   color: var(--accent);
   width: 1rem;
-  text-align: center;
 }
 
 .sidebar-nav a:hover { color: var(--accent); }
@@ -482,7 +514,7 @@ ul { margin: 0; padding: 0; }
   gap: 0.5rem;
 }
 
-.competency-title i {
+.competency-title .icon {
   color: var(--accent);
   font-size: 1.1rem;
 }
@@ -545,12 +577,12 @@ ul { margin: 0; padding: 0; }
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.25rem;
-  max-width: 700px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
 @media (min-width: 600px) {
-  .contact-grid { grid-template-columns: repeat(3, 1fr); }
+  .contact-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 .contact-card {

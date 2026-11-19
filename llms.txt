@@ -8,6 +8,8 @@ Erik Olsen is a freelance software architect and developer with 20+ years of exp
 
 He specialises in helping companies modernise their IT — transitioning towards service-oriented and event-driven architectures — contributing across the full journey from vision and strategy to execution and maintenance.
 
+**Availability**: Currently engaged at BankData until 31 December 2026. Available for new projects from January 2027.
+
 ## Services
 
 - **Software Development**: Full-cycle development and architecture, from refining and designing to delivery and maintenance. Senior developer and architect profile, collaborative and business-driven.
@@ -29,7 +31,7 @@ He specialises in helping companies modernise their IT — transitioning towards
 ## Technical Competencies
 
 **Languages**: C#, Java, Go, SQL
-**Frameworks**: .NET Core, ASP.NET Core, Quarkus
+**Frameworks**: .NET, ASP.NET Core, Quarkus
 **Technology**: Azure, AWS, OpenShift, Kafka, RabbitMQ, Docker, Kubernetes, Cassandra, ELK Stack
 **Architecture**: Domain Driven Design, Event Driven Architecture, Microservices, CQRS, API Design, OpenID Connect, OAuth 2, TOGAF, API Gateways, Observability
 **Human languages**: Danish, English
